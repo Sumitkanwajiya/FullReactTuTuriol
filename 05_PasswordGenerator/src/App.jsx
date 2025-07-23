@@ -47,7 +47,7 @@ function App() {
       ref={passwordRef}
       
       />
-      <button onClick= {copyPaste} className='outline-none bg-black text-white px-3  shrink-0'>Copy</button>
+      <button onClick= {copyPaste} className='outline-none cursor-pointer bg-black text-white px-3 shrink-0'>Copy</button>
     </div>
 
     <div className='flex text-sm gap-x-2'>
